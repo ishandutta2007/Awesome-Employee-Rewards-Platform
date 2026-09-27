@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 46px; fill: url(#textGrad); }
+    .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #94a3b8; }
+    .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+    
+    @keyframes float1 { 0%, 100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(-12px) rotate(2deg); } }
+    @keyframes float2 { 0%, 100% { transform: translateY(0px) rotate(0deg); } 50% { transform: translateY(10px) rotate(-2deg); } }
+    @keyframes pulseGlow { 0%, 100% { opacity: 0.3; transform: scale(1); } 50% { opacity: 0.6; transform: scale(1.08); } }
+    
+    .floating-card-1 { animation: float1 6s ease-in-out infinite; transform-origin: center; }
+    .floating-card-2 { animation: float2 7s ease-in-out infinite; transform-origin: center; }
+    .pulsing-orb { animation: pulseGlow 5s ease-in-out infinite; transform-origin: center; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="350" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Glow Orbs in Background -->
+  <circle class="pulsing-orb" cx="200" cy="90" r="140" fill="#6366f1" filter="url(#glow)" opacity="0.4" />
+  <circle class="pulsing-orb" cx="1000" cy="260" r="160" fill="#ec4899" filter="url(#glow)" opacity="0.3" />
+
+  <!-- Dynamic Graphic Elements (Background Decorative Cards) -->
+  <g class="floating-card-1" opacity="0.6">
+    <rect x="820" y="50" width="280" height="90" rx="12" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1" />
+    <circle cx="860" cy="95" r="20" fill="#10b981" opacity="0.8" />
+    <text x="860" y="101" font-family="sans-serif" font-size="18" fill="#fff" text-anchor="middle">🏆</text>
+    <rect x="895" y="80" width="140" height="10" rx="5" fill="#38bdf8" opacity="0.7" />
+    <rect x="895" y="98" width="90" height="8" rx="4" fill="#94a3b8" opacity="0.5" />
+  </g>
+
+  <g class="floating-card-2" opacity="0.6">
+    <rect x="100" y="210" width="260" height="85" rx="12" fill="url(#cardGrad)" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1" />
+    <circle cx="140" cy="252" r="18" fill="#f59e0b" opacity="0.8" />
+    <text x="140" y="258" font-family="sans-serif" font-size="16" fill="#fff" text-anchor="middle">⭐</text>
+    <rect x="172" y="240" width="120" height="10" rx="5" fill="#c084fc" opacity="0.7" />
+    <rect x="172" y="258" width="70" height="8" rx="4" fill="#94a3b8" opacity="0.5" />
+  </g>
+
+  <!-- Foreground Title and Subtitle (Unobscured & Crystal Clear) -->
+  <g text-anchor="middle">
+    <!-- Icon / Mini Header -->
+    <text x="600" y="80" font-family="sans-serif" font-size="38" filter="url(#glow)">🎁 👏 🌟</text>
+    
+    <!-- Main Title -->
+    <text x="600" y="145" class="title" filter="url(#glow)">Awesome Employee Rewards Platform</text>
+    
+    <!-- Subtitle -->
+    <text x="600" y="190" class="subtitle">A Curated Ecosystem of SaaS Products &amp; Open-Source Recognition Tools</text>
+    
+    <!-- Decorative Feature Pill Badges -->
+    <g transform="translate(340, 230)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="160" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#818cf8" stroke-width="1.5" />
+      <text x="80" y="23" class="badge-text" text-anchor="middle">🤝 Peer Recognition</text>
+
+      <!-- Pill 2 -->
+      <rect x="180" y="0" width="160" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="260" y="23" class="badge-text" text-anchor="middle">💎 Points &amp; Perks</text>
+
+      <!-- Pill 3 -->
+      <rect x="360" y="0" width="160" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#c084fc" stroke-width="1.5" />
+      <text x="440" y="23" class="badge-text" text-anchor="middle">🚀 Open Source HR</text>
+    </g>
+  </g>
+</svg>
