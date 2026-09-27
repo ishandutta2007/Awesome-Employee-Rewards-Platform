@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Employee-Rewards-Platform?style=flat-square" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Employee-Rewards-Platform?style=flat-square" alt="GitHub_Stars" />
   <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Employee-Rewards-Platform?style=flat-square" alt="GitHub Forks" />
   <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Employee-Rewards-Platform?style=flat-square" alt="License" />
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -61,9 +61,9 @@ This repository tracks top **SaaS platforms** and **open-source GitHub projects*
 ## 🔓 Open-Source GitHub Projects
 
 > [!TIP]
-> Open-source repos are sorted by GitHub Star counts in descending order.
+> Open-source repos are sorted by GitHub Stars_Counts in descending order.
 
-| Project | Stars Badge | Description & Tech Stack | License |
+| Project | Stars_Badge | Description & Tech Stack | License |
 | :--- | :--- | :--- | :--- |
 | **[Coordinape](https://github.com/coordinape/coordinape-protocol)** 🌐 | [<img src="https://img.shields.io/github/stars/coordinape/coordinape-protocol?style=social&color=white" alt="Coordinape Stars"/>](https://github.com/coordinape/coordinape-protocol/stargazers) | Web3 decentralized peer allocation platform for gift circles, token distributions, and on-chain reputation rewards. <br>**Tech Stack**: Solidity, TypeScript, React. | MIT |
 | **[Meeds](https://github.com/meeds-io/meeds)** 🎮 | [<img src="https://img.shields.io/github/stars/meeds-io/meeds?style=social&color=white" alt="Meeds Stars"/>](https://github.com/meeds-io/meeds/stargazers) | Open-source gamified employee engagement platform. Built-in kudos, task-based contribution points, spaces, and reward distribution. <br>**Tech Stack**: Java, Vue.js, Docker. | LGPL-3.0 |
@@ -81,7 +81,7 @@ Contributions are welcome! Please follow these steps to add new SaaS or open-sou
 
 1. 🍴 **Fork** the repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining standard tabular formatting and factual data.
-3. 🔗 Check that all external links, pricing tiers, and open-source star badges link properly.
+3. 🔗 Check that all external links, pricing tiers, and open-source Stars_Badges link properly.
 4. 🚀 **Submit a Pull Request** with a detailed explanation of your changes.
 
 Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated awesome lists!
